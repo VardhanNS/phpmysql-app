@@ -45,7 +45,7 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-          background: #FF4E50;  /* fallback for old browsers */
+          background: #248CE3;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -69,7 +69,7 @@ session_start();
 
         }
         #footer {
-            background: #7474BF;  /* fallback for old browsers */
+            background: #white;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -174,8 +174,7 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
+								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif"><a style="color:red">Ecommerce App</a>
                                     </font>
 									
 								</a>
@@ -191,6 +190,8 @@ session_start();
 										<option value="0">All Categories</option>
 										<option value="1">Men</option>
 										<option value="1">Women </option>
+                                                                                <option value="1">Furniture </option>
+                                                                                
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
