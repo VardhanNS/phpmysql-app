@@ -127,12 +127,12 @@ CREATE TABLE `categories` (
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
 (1, 'Electronics'),
-(2, 'Ladies Wears'),
-(3, 'Mens Wear'),
-(4, 'Kids Wear'),
+(2, 'Women'),
+(3, 'Men'),
+(4, 'Baby & Kids'),
 (5, 'Furnitures'),
 (6, 'Home Appliances'),
-(7, 'Electronics Gadgets');
+(7, 'Sports, Books & More');
 
 -- --------------------------------------------------------
 
