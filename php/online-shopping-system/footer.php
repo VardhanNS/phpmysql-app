@@ -10,9 +10,9 @@
 								<h3 class="footer-title">About Us</h3>
 								
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Niraj dey</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>8972188523</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>deyneeraj666@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>3rd Floor, No. 38/4, Outer Ring Rd, adjacent to Dell EMC2, Doddanekundi, Bengaluru, Karnataka 560048</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>Contact Us-08040423754</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>Drop a query</a></li>
 								</ul>
 							</div>
 						</div>
@@ -27,8 +27,7 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-							
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script>Brain4ce Education Solutions Pvt. Ltd. All rights Reserved
 							</span>
 						</div>
 
