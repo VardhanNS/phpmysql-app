@@ -15,7 +15,9 @@ services:
           container_name: mysqli
           image: mysql:latest
           command: --default-authentication-plugin=mysql_native_password
-          restart: always
+          restart: always  
+          volumes:
+             - /var/lib/jenkins/workspace/DeployApp/php/online-shopping-system/database:/docker-entrypoint-initdb.d/          
           environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: database
