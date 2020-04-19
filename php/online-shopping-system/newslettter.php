@@ -10,7 +10,8 @@
 					<div class="col-md-12">
 					
 						<div class="newsletter">
-							<p>Sign Up for the <strong>OFFERUPDATES</strong></p>
+							<p>Sign up to Edureka's Newsletter 
+for <strong>OFFER UPDATES</strong></p>
 							<form id="offer_form" onsubmit="return false">
 								<input class="input" type="email" id="email" name="email" placeholder="Enter Your Email">
 								<button class="newsletter-btn" value="Sign Up" name="signup_button" type="submit"><i class="fa fa-envelope"></i> Subscribe</button>
