@@ -24,4 +24,4 @@ services:
             MYSQL_USER: edureka
             MYSQL_PASSWORD: admin
           ports:
-           - 6033:33060
+           - 6033:3306
