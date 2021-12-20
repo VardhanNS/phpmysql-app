@@ -1,0 +1,25 @@
+version: '2'
+services:
+  web:
+       build:
+               context: ./php/online-shopping-system
+               dockerfile: Dockerfile
+       container_name: php_app
+       depends_on:
+         - db
+       ports:
+         - 8008:80
+  db:
+          build:
+                  context: ./php/online-shopping-system/database
+                  dockerfile: Dockerfile
+          container_name: mysqli
+          command: --default-authentication-plugin=mysql_native_password
+          restart: always
+          environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: database
+            MYSQL_USER: edureka
+            MYSQL_PASSWORD: admin
+          ports:
+           - 6033:3306
