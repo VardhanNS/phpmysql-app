@@ -1,0 +1,3 @@
+FROM mysql:latest
+ENV MYSQL_DATABASE database
+COPY onlineshop.sql /docker-entrypoint-initdb.d/
