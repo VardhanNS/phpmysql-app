@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: db-service
+  name: db
   labels:
-    run: ecommercedb-service
+    run: ecommerce
 spec:
   type: NodePort 
   ports:
