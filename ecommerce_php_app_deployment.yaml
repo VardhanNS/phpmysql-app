@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecommwebserver
+  labels:
+    app: ecommerce 
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: ecommerce 
+  template:
+    metadata:
+      labels:
+        app: ecommerce 
+    spec:
+      containers:
+      - name: ecommwebphp
+        image: sreedocker123/phpmysqlecommerceapp:latest 
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
