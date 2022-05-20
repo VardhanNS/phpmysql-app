@@ -3,7 +3,8 @@ services:
   web:
        build:
                context: ./php/online-shopping-system
-               dockerfile: Dockerfile_webapp_update
+               dockerfile: Dockerfile_update_webapp
+       image: sreedocker123/bdaecommphp:latest
        container_name: php_app
        depends_on:
          - db
@@ -12,7 +13,8 @@ services:
   db:
           build:
                   context: ./php/online-shopping-system/database
-                  dockerfile: Dockerfile
+                  dockerfile: Dockerfile_db
+          image: sreedocker123/bdaecommdb:latest
           container_name: mysqli
           command: --default-authentication-plugin=mysql_native_password
           restart: always
