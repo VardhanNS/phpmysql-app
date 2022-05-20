@@ -3,7 +3,7 @@ services:
   web:
        build:
                context: ./php/online-shopping-system
-               dockerfile: Dockerfile
+               dockerfile: Dockerfile_webapp_update
        container_name: php_app
        depends_on:
          - db
